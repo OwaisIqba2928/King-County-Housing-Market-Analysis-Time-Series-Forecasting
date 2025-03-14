@@ -1,9 +1,9 @@
-# 📊 Rockbuster SQL Case Study | Data-Driven Strategy for Film Rentals
+# 📊 Rockbuster Stealth LLC: SQL-Driven Film Rental Analysis | Advanced Analytics
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
 ## 🌟 **Introduction**  
-**Rockbuster Stealth LLC** (a fictional movie rental company) aims to pivot its business strategy to compete with streaming giants like Netflix. This project analyzes their relational database using **SQL** to uncover customer behavior, revenue trends, and market opportunities.  
+This project analyzes **Rockbuster Stealth LLC’s film rental database** to uncover customer behavior, revenue trends, and global market opportunities. Developed as part of the CareerFoundry Data Analytics Program, it combines SQL-driven analysis with Tableau visualizations to guide strategic decision-making for competing with streaming platforms like Netflix.  
 
 🔗 **Video Presentation Walkthrough:**  
 [![Google Drive Video](https://img.shields.io/badge/Video_Presentation-Watch_Here-4285F4)](https://drive.google.com/file/d/1l2hhTfqy13cO6esnYlpCElx6qmo4cf7B/view?usp=sharing)  
@@ -11,43 +11,43 @@
 ---
 
 ## 🎯 **Project Objectives**  
-1. **Customer Segmentation**: Identify top customers and high-revenue markets.  
-2. **Rental Trends**: Analyze popular genres and peak rental periods.  
-3. **Revenue Optimization**: Determine high-performing genres and pricing strategies.  
-4. **Global Expansion**: Recommend target cities/countries for growth.  
+1. **Customer Segmentation**: Identify VIP customers and high-revenue markets.  
+2. **Genre Performance**: Analyze top-performing movie genres and rental trends.  
+3. **Global Expansion**: Recommend target cities/countries for growth.  
+4. **Revenue Optimization**: Provide pricing and inventory strategies.  
 
 ---
 
 ## 🛠️ **Tools & Technologies**  
-- **SQL (PostgreSQL)**: Data extraction, cleaning, and analysis.  
-- **Tableau**: Interactive charts for stakeholder presentations.  
-- **Jupyter Notebook**: SQL query organization and documentation.  
-- **Excel**: Supplementary data validation and reporting.  
-- **GitHub**: Version control and project hosting.  
+- **SQL (PostgreSQL)**: Data extraction, cleaning, and aggregation.  
+- **Tableau**: Interactive visualizations for stakeholder insights.  
+- **Excel**: Data validation and supplementary reporting.  
+- **Jupyter Notebook**: SQL query documentation and organization.  
 
 ---
 
 ## 📂 **Dataset Overview**  
-A relational PostgreSQL database with 15+ tables, including:  
-- **🎬 Film & Inventory**: Movie details, genres, and stock.  
-- **👥 Customer Data**: Demographics, rental frequency, and loyalty.  
-- **🔄 Rental Transactions**: Rental history, duration, and returns.  
-- **💰 Payments**: Revenue records and customer spending.  
+**Rockbuster’s Relational Database** includes:  
+- **Key Tables**: `film`, `inventory`, `customer`, `rental`, `payment`.  
+- **Features**: Movie genres, rental duration, customer demographics, payment history.  
+- **Size**: 15+ tables with 1M+ rows (cleaned and filtered for analysis).  
 
 ---
 
-## 🔍 **Key Insights**  
-### **1. Customer Behavior**  
-- **Top 10 VIP Customers** contributed **15% of total revenue**.  
-- **High-revenue markets**: USA, India, and China.  
+## 🔍 **Key Steps & Insights**  
+### 🧹 **Data Cleaning & Preprocessing**  
+- Joined tables (`rental` ↔ `inventory` ↔ `film`) to map rentals to genres.  
+- Filtered inactive customers and outdated movie catalogs.  
+- Standardized currency and date formats for global analysis.  
 
-### **2. Rental Trends**  
-- **Most Rented Genres**: Action (23%) and Comedy (19%).  
+### 📊 **Exploratory Data Analysis (EDA)**  
+- **Top Genres**: Action (23% of rentals) and Comedy (19%).  
 - **Peak Rentals**: 65% of rentals occurred on weekends.  
+- **VIP Customers**: Top 10 customers contributed **15% of total revenue**.  
 
-### **3. Market Opportunities**  
-- **Top Expansion Targets**: Berlin, London, and Hyderabad.  
-- **Untapped Markets**: Eastern Europe showed rising demand.  
+### 🌍 **Market Opportunities**  
+- **High-Growth Regions**: Berlin, London, and Hyderabad showed untapped demand.  
+- **Revenue Leaders**: USA, India, and China generated 60% of global revenue.  
 
 ---
 
@@ -72,11 +72,17 @@ Explore the Tableau charts for deeper insights:
 
 ---
 
-## 🚀 **Business Recommendations**  
-1. **Genre Focus**: Prioritize acquisitions in **Action** and **Comedy** genres.  
-2. **Loyalty Programs**: Reward top customers with exclusive discounts.  
-3. **Dynamic Pricing**: Increase prices for weekend rentals by **10–15%**.  
-4. **Global Expansion**: Launch targeted marketing campaigns in **Berlin** and **Hyderabad**.  
+## 🚀 **Business Impact & Recommendations**  
+### **Insights**  
+- **Genre Focus**: Action and Comedy films are revenue powerhouses.  
+- **Weekend Demand**: 65% of rentals occur on weekends.  
+- **Untapped Markets**: Eastern Europe shows rising demand.  
+
+### **Recommendations**  
+1. **Inventory Prioritization**: Stock more Action/Comedy films in high-revenue regions.  
+2. **Weekend Pricing**: Implement surge pricing for weekend rentals.  
+3. **Loyalty Programs**: Reward top customers with exclusive offers.  
+4. **Targeted Expansion**: Launch marketing campaigns in Berlin and Hyderabad.  
 
 ---
 
@@ -86,5 +92,6 @@ Rockbuster-SQL-Case-Study/
 ├── SQL_Queries/           # Jupyter Notebook with SQL scripts  
 ├── Data_Dictionary/       # Column definitions and metadata  
 ├── Visualizations/        # Tableau charts (linked above)  
+├── Reports/               # PDF summaries and slide decks  
 ├── README.md              # Project overview  
 └── LICENSE                # Usage terms (optional)  
